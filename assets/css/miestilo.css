@@ -1,0 +1,100 @@
+.header {
+	/*height: 20vh;*/
+	/*background-image: url(../img/perrogatoheader.jpg); 
+	
+	background-size: cover;
+	
+	background-position-y: center;
+	background-position-x: right;
+	*/
+    /*background-color: #007bff!important;
+	*/
+	
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+/*nav.navbar{
+	background-color: #5A3A85;
+}*/
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFF;
+}
+
+
+.footer{
+	background-color: #5A3A85;
+    height: 250px;
+	/*padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: #FFF;
+    font-size: 90% !important;*/
+}
+	
+p{
+	color: #33333a;
+	font: 14px,Tahoma,Arial
+	margin: 0px 0px 10px;
+	contrast: Aa 12,63;
+	font-weight: bold;
+	margin: 0 0 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+
+.tit1ppal{
+	border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #EDE9E2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+
+ h5{
+ 	color: #33333a;
+	font: 14px,Tahoma,Arial
+
+ }
+
+ .seccionToggle{
+ 	height: calc(100vh - 50px);
+ 	padding: 50px;
+ 	text-align: center;
+ 	 }
+
+.navbar-toggler:hover{
+	text-decoration: #FFF;
+}
+
+ .btn-toggle{
+ 	height: 50px;
+ 	line-height: 50px;
+ 	font-size: 24px;
+ 	font-weight: bold;
+ 	display: block;
+	}
+ 
+
+ button{
+ 	background: none;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	padding: 20px 40px;
+ 	display: inline-block;
+ 	
+ 	border: 5px solid #001F3F;
+
+ 	transition: .3s all ease
+ 	&:hover
+ 		border: 5px solid #007409;
+ 		color: #0074D9
+  	}
+
